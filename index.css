@@ -21,7 +21,7 @@ header {
    text-align: center;
    padding: 5%;
    font-size: 150%;
-}
+   }
 
 header p {
     margin-top: 10;
@@ -36,6 +36,7 @@ nav {
     display: flex;
     justify-content: space-between;
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
 }
 
 section {
@@ -54,12 +55,13 @@ section {
 article {
     flex: 1;
     min-width: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
-   
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 article img {
     width: 100%;
+    border-color: #406857;
+    border-style: solid;
 }
 
 aside {
@@ -87,6 +89,7 @@ footer {
 body {
     height: 100vh;
     margin: 0;
+    
 }
 
 #current-nav-item { 
