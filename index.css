@@ -43,6 +43,13 @@ section {
     padding: 10px;
 }
 
+#photo-index{
+   
+    width: 50%;
+    align-items: center;
+    margin: auto;
+}
+
 article {
     flex: 1;
     min-width: 300px;
@@ -81,7 +88,7 @@ body {
 }
 
 #current-nav-item { 
-background-color: #2ACEA0; }
+background-color: grey; }
 
 .navitem {
     height: 75px;
