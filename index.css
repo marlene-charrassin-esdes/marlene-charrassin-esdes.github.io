@@ -1,0 +1,110 @@
+@font-face
+{
+  font-family: "TravelingTypewriter.ttf";
+  src: url(fonts/TravelingTypewriter.ttf);
+}
+
+
+
+
+header {
+   min-height: 25%;
+   background-image: url("images/background.png");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center; 
+   color: white;
+   text-align: center;
+   padding: 30px;
+}
+
+header p {
+    margin-top: 0;
+}
+
+#globeimage {
+    width: 50px;
+}
+
+nav {
+    background-color: #406289;
+    display: flex;
+    justify-content: space-between;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+article {
+    flex: 1;
+    min-width: 300px;
+}
+
+article img {
+    width: 100%;
+}
+
+aside {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fiche-voyage {
+    background-color: #D8D8D8;
+    margin: 10px;
+    text-align: center
+}
+
+footer {
+    background-color: #86898C;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: x-small;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+}
+
+#current-nav-item { 
+background-color: #2ACEA0; }
+
+.navitem {
+    height: 75px;
+    min-width: 100px;
+    flex: 1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.navitem a, .navitem a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.navitem:hover {
+    background-color: #334359
+}
+
+.social a img
+{ width: 40px
+}
+
+h2 {
+    padding: 10px;
+}
+
