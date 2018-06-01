@@ -8,8 +8,8 @@
 
 
 header {
-   min-height: 25%;
-   background-image: url("images/background.png");
+   min-height: 55%;
+   background-image: url("images/background.jpg");
    background-repeat: no-repeat;
    background-size: cover;
    background-position: center;
@@ -17,23 +17,24 @@ header {
    justify-content: center;
    flex-direction: column;
    align-items: center; 
-   color: white;
+   color:whitesmoke;
    text-align: center;
    padding: 30px;
 }
 
 header p {
-    margin-top: 0;
+    margin-top: 10;
 }
 
 #globeimage {
-    width: 50px;
+    width: 70px;
 }
 
 nav {
     background-color: #406289;
     display: flex;
     justify-content: space-between;
+    font-family:'Times New Roman', Times, serif
 }
 
 section {
@@ -45,6 +46,7 @@ section {
 article {
     flex: 1;
     min-width: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
 article img {
