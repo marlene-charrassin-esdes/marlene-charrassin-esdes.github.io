@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Dancing+Script');
 
 header {
-   min-height: 80px;
+   min-height: 90px;
    font-family: 'Dancing Script', cursive;
    background-image: url("../images/background.jpg");
    background-repeat: no-repeat;
@@ -15,7 +15,7 @@ header {
    color: black;
    text-align: center;
    font-size: 150%;
-   padding: 60px;
+   padding: 70px;
 
    }
 
@@ -63,27 +63,17 @@ article {
     flex: 1;
     min-width: 300px;
     font-family: 'Bitter', serif;
-    text-align: justify;
-    margin-left: 30px;
+    margin-left: 20px;
+    text-align: center;
+    border: double;
+    padding: 20px;
+    margin: 5px;
 }
 
 article img {
     width: 100%;
     border-color: #406857;
     border-style: solid;
-}
-
-aside {
-    width: 300px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.fiche-métier {
-    background-color:grey;
-    margin: 80px;
-    text-align: center;
-    padding: 140px;
 }
 
 footer {
@@ -94,18 +84,20 @@ footer {
     justify-content: center;
     text-align: center;
     font-size: small;
+    text-decoration: none;
+    height: 100%;
 }
 
 body {
     height: 100px;
-    margin: 0%;   
+    margin: 0%; 
 }
 
 #current-nav-item { 
 background-color: #6e8279; }
 
 .navitem {
-    height: 60px;
+    height: 50px;
     min-width: 100px;
     flex: 10px;
     text-align: center;
@@ -153,6 +145,7 @@ h2 {
     font-family: 'Bitter', serif;
     background-color: #3b6151;
     opacity: 1.0;
+    height: 20px;
 }
 
 h3 {
@@ -160,7 +153,7 @@ h3 {
     text-align: center;
     color: black;
     font-family: 'Bitter', serif;
-    color: white;
+    color: grey;
 }
 
 
@@ -178,7 +171,7 @@ header {
     color: black;
     text-align: center;
     font-size: 150%;
-    padding: 60px;
+    padding: 150px;
  
 }
 
