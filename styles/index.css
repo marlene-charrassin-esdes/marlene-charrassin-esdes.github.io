@@ -80,13 +80,14 @@ article img {
 footer {
     background-color: #86898C;
     color: white;
-    display:flex;
+    display: block;
     flex-direction: column;
     justify-content: center;
     text-align: center;
     font-size: small;
     text-decoration: none;
-    height: 100%;
+    width: 100%;
+    height: 150px;
 }
 
 body {
