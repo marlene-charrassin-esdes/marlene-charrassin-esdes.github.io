@@ -80,7 +80,7 @@ article img {
 footer {
     background-color: #86898C;
     color: white;
-    display: flex;
+    display:flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
